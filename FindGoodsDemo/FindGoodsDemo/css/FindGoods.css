@@ -1,0 +1,25 @@
+﻿body {
+    margin:0 auto;
+    font-size:0.8em;
+}
+.content{
+    width:700px;
+    margin-left:50px;
+    margin-top:20px;
+}
+.center{
+    text-align:center;
+    vertical-align:top;
+    line-height:20px;
+    padding:8px;
+}
+.name{width:300px;
+      vertical-align:top;
+      line-height:20px;
+      font-size:1.2em;
+      padding:8px;
+}
+.color{
+    color:#ff4400;
+    font-size:1.4em;
+}
