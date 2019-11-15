@@ -9,9 +9,9 @@
     <link href="css/FindGoods.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" style="background-color:#ffda79">
         搜索条件：<br />
-        -------------------------------------------------------------------------------------------------------------------<br />
+        ----------------------------------------------------------------------------------------------------------------------<br />
         关键字：<asp:TextBox ID="txtGName" runat="server"></asp:TextBox>
         <br />
         <br />
@@ -40,7 +40,7 @@
             inner join [GoodsType] on Goods.tID=GoodsType.tID"></asp:SqlDataSource>
         <br />
         搜索结果：<br />
-        --------------------------------------------------------------------------------------------------------------------<asp:GridView ID="grdGoods" runat="server" AutoGenerateColumns="False" DataKeyNames="gdID" BorderWidth="0px" DataSourceID="sqlGoods" ShowHeader="False" AllowPaging="True" PageSize="3" EnableModelValidation="True">
+        -----------------------------------------------------------------------------------------------------------------------<asp:GridView ID="grdGoods" runat="server" AutoGenerateColumns="False" DataKeyNames="gdID" BorderWidth="0px" DataSourceID="sqlGoods" ShowHeader="False" AllowPaging="True" PageSize="3" EnableModelValidation="True">
             <Columns>
                 <asp:ImageField DataImageUrlField="gdImage" ItemStyle-CssClass="center" DataImageUrlFormatString="goods/l{0}">
                 </asp:ImageField>

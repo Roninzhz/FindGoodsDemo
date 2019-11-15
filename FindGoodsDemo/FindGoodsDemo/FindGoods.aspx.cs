@@ -37,14 +37,14 @@ namespace FindGoodsDemo
             }
             if (ddlGType.SelectedValue != "0")
             {
-                sqlstr += "and Goods.tID=@tID";
+                sqlstr += " and Goods.tID=@tID";
                 Parameter pm = new Parameter("tID", DbType.Int16, ddlGType.SelectedValue);
                 sqlGoods.SelectParameters.Add(pm);
 
             }
             if (txtPriceLow.Text != "" || txtPriceLow.Text != "")
             {
-                sqlstr += "and gdPrice>=@low and gdPrice<@high";
+                sqlstr += " and gdPrice>=@low and gdPrice<@high";
                 Parameter pm = new Parameter("low", DbType.Int16, txtPriceLow.Text);
                 sqlGoods.SelectParameters.Add(pm);
                 pm = new Parameter("high", DbType.Int16, txtPriceHigh.Text);
