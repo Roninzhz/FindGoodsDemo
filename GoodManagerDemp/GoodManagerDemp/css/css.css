@@ -1,0 +1,32 @@
+﻿body {
+    margin:0 auto;
+    font-size:0.8em;
+}
+a{
+    text-decoration:none;
+}
+.noborder{
+    border:0;
+
+}
+.content{
+    width:700px;
+    margin-left:50px;
+    margin-top:20px;
+}
+.center{
+    text-align:center;
+    line-height:20px;
+    padding:8px;
+}
+.name{
+    width:200px;
+    line-height:20px;
+    padding:8px;
+}
+.hstyle{
+    line-height:30px;
+}
+.txtwidth{
+    width:300px;
+}
