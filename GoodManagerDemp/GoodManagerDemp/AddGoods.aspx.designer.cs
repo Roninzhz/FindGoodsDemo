@@ -33,6 +33,15 @@ namespace GoodManagerDemp
         protected global::System.Web.UI.WebControls.DropDownList ddlType;
 
         /// <summary>
+        /// SqlDataSource1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+
+        /// <summary>
         /// txtCode 控件。
         /// </summary>
         /// <remarks>
@@ -69,15 +78,6 @@ namespace GoodManagerDemp
         protected global::System.Web.UI.WebControls.TextBox txtQuantity;
 
         /// <summary>
-        /// txtFeight 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFeight;
-
-        /// <summary>
         /// txtCity 控件。
         /// </summary>
         /// <remarks>
@@ -87,13 +87,22 @@ namespace GoodManagerDemp
         protected global::System.Web.UI.WebControls.TextBox txtCity;
 
         /// <summary>
-        /// fUpload 控件。
+        /// txtFeight 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fUpload;
+        protected global::System.Web.UI.WebControls.TextBox txtFeight;
+
+        /// <summary>
+        /// fldImg 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fldImg;
 
         /// <summary>
         /// txtInfo 控件。
