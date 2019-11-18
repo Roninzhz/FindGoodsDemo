@@ -59,7 +59,10 @@
   <ItemGroup>
     <Content Include="AddGoods.aspx" />
     <Content Include="css\css.css" />
+    <Content Include="EditGoods.aspx" />
     <Content Include="GoodsManager.aspx" />
+    <Content Include="icon\delete.gif" />
+    <Content Include="icon\mod.gif" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +72,13 @@
     </Compile>
     <Compile Include="AddGoods.aspx.designer.cs">
       <DependentUpon>AddGoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditGoods.aspx.cs">
+      <DependentUpon>EditGoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditGoods.aspx.designer.cs">
+      <DependentUpon>EditGoods.aspx</DependentUpon>
     </Compile>
     <Compile Include="GoodsManager.aspx.cs">
       <DependentUpon>GoodsManager.aspx</DependentUpon>

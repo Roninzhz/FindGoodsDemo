@@ -28,10 +28,10 @@
                     <asp:BoundField DataField="gdAddTime" ItemStyle-CssClass="center" HeaderText="上架时间" DataFormatString="{0:d}" />
                     <asp:TemplateField HeaderText="编辑" ItemStyle-CssClass="center">
                         <ItemTemplate>
-                            <a href="">
-                                <asp:Image ID="Image1" runat="server" CssClass="noborder" ToolTip="编辑商品" ImageUrl="" />
+                            <a href='EditGoods.aspx?gdid=<%#Eval("gdID")%>'>
+                                <asp:Image ID="Image1" runat="server" CssClass="noborder" ToolTip="编辑商品" ImageUrl="icon/mod.gif" />
                             </a>&nbsp;&nbsp;
-                            <asp:ImageButton ID="ImageButton2" runat="server" ToolTip="删除商品" ImageUrl="" CommandName="delete" OnClientClick="return confirm('确定要删除该商品？');" />
+                            <asp:ImageButton ID="ImageButton2" runat="server" ToolTip="删除商品" ImageUrl="icon/delete.gif" CommandName="delete" OnClientClick="return confirm('确定要删除该商品？');" />
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
