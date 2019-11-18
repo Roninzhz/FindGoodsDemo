@@ -11,6 +11,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            【商品管理】<br />
+            ----------------------------------------------------------------------------------------------------------------------<br />
             <asp:Button ID="btnAdd" runat="server"  Text="添加商品" OnClick="btnAdd_Click" />
         </div><br /><br />
         <div>
